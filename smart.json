@@ -1,0 +1,12 @@
+{
+    "meteor": {
+        "branch": "devel",
+        "git": "https://github.com/meteor/meteor.git"
+    },
+    "packages": {
+        "iron-router": {
+            "git": "https://github.com/EventedMind/iron-router.git",
+            "branch": "devel"
+        }
+    }
+}

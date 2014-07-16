@@ -1,0 +1,37 @@
+{
+  "meteor": {
+    "git": "https://github.com/meteor/meteor.git",
+    "branch": "devel",
+    "commit": "c8d7821deb271a2c7747151ddf59701a4b11a90d"
+  },
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "branch": "devel"
+      }
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "branch": "devel",
+        "commit": "ed5ddbb0afb9851b18a36a888f5769473edd2b92"
+      },
+      "iron-layout": {
+        "git": "https://github.com/EventedMind/iron-layout.git",
+        "tag": "v0.1.0",
+        "commit": "fb6809d27c97eebdc21b57f16ec374e8dab8e06e"
+      },
+      "iron-core": {
+        "git": "https://github.com/EventedMind/iron-core.git",
+        "tag": "v0.1.0",
+        "commit": "978b27f987a91c8d46e557c24190cb2ed5f8b074"
+      },
+      "iron-dynamic-template": {
+        "git": "https://github.com/EventedMind/iron-dynamic-template.git",
+        "tag": "v0.1.0",
+        "commit": "10ffb22239b79789c3923354e3eaa9ba7cb2f9ca"
+      }
+    }
+  }
+}

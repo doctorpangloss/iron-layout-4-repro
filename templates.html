@@ -1,0 +1,12 @@
+<template name="layout">
+    {{> yield}}
+</template>
+
+<template name="ordinaryRoute">
+    <h1>You are looking at an ordinary route</h1>
+    <a href="{{pathFor 'redirectBackToOrdinaryRoute'}}">Take me to the redirect route.</a>
+</template>
+
+<template name="redirectBackToOrdinaryRoute">
+    <h1>You are looking at a route that redirects you back to ordinary route.</h1>
+</template>
