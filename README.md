@@ -1,1 +1,1 @@
-To reproduce the error, click the "Take me to the redirect route and throw an error" link.
+To reproduce the error, visit the root route. Observe that time does not render anything. Visit /route directly and observe time now renders.

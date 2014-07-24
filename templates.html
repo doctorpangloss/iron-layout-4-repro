@@ -2,11 +2,26 @@
     {{> yield}}
 </template>
 
-<template name="ordinaryRoute">
-    <h1>You are looking at an ordinary route</h1>
-    <a href="{{pathFor 'redirectBackToOrdinaryRoute'}}">Take me to the redirect route and throw the beginRendering again error in layout.js.</a>
+<template name="layoutWithRegions">
+    <p>test</p>
+    {{> yield 'position1'}}
+    {{> yield 'position2'}}
+    {{> yield 'position3'}}
 </template>
 
-<template name="redirectBackToOrdinaryRoute">
-    <h1>You are looking at a route that redirects you back to ordinary route.</h1>
+<template name="redirectRoute">
+    <h1>You are looking at a route that redirects you to another route.</h1>
+</template>
+
+<template name="content1">
+    <p>Blah</p>
+</template>
+
+<template name="content2">
+    <p>Blah blah</p>
+    <p>Time: Should be a reactive number here... {{time}}</p>
+</template>
+
+<template name="content3">
+    <p>Blah blah blah</p>
 </template>
