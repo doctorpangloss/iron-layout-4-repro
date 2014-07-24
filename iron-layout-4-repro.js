@@ -17,6 +17,9 @@ Router.map(function () {
             'content1': {to: 'position1'},
             'content2': {to: 'position2'},
             'content3': {to: 'position3'}
+        },
+        action: function() {
+            this.renderRegions();
         }
     });
 

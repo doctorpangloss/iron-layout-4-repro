@@ -1,6 +1,6 @@
 {
     "meteor": {
-        "branch": "devel",
+        "tag": "release/0.8.3-rc1",
         "git": "https://github.com/meteor/meteor.git"
     },
     "packages": {

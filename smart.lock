@@ -1,8 +1,8 @@
 {
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
-    "branch": "devel",
-    "commit": "e78861b7d0dbb60e5e2bf59bab2cb06ce6596c04"
+    "tag": "release/0.8.3-rc1",
+    "commit": "d3eae5a2e8166c0108e536595c20aa7d70ad35bc"
   },
   "dependencies": {
     "basePackages": {
